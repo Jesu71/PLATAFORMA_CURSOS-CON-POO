@@ -1,0 +1,174 @@
+{
+  "estudiantes": [
+    {
+      "id": 2,
+      "nombre": "Carlos López",
+      "email": "carlos@example.com",
+      "cursos": []
+    },
+    {
+      "id": 114,
+      "nombre": "Hugo Payares",
+      "email": "hugop@gmail.com",
+      "cursos": [
+        101,
+        522
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "María Pérez",
+      "email": "maria@example.com",
+      "cursos": []
+    },
+    {
+      "id": 411,
+      "nombre": "Jose Granados",
+      "email": "joseg@gmail.com",
+      "cursos": []
+    },
+    {
+      "id": 877,
+      "nombre": "Jeifre Salcedo",
+      "email": "jeifre.salcedo@gmail.com",
+      "cursos": []
+    },
+    {
+      "id": 777,
+      "nombre": "Bleyder Martinez",
+      "email": "bleyder.martinez@gmail.com",
+      "cursos": []
+    },
+    {
+      "id": 999,
+      "nombre": "Davinso Codina",
+      "email": "davinso.codina@gmail.com",
+      "cursos": []
+    },
+    {
+      "id": 1,
+      "nombre": "Ana Gómez",
+      "email": "ana@example.com",
+      "cursos": []
+    },
+    {
+      "id": 1234,
+      "nombre": "Jesus Rendon",
+      "email": "jesus.rendon@gmail.com",
+      "cursos": []
+    },
+    {
+      "id": 266,
+      "nombre": "Esteban Quito",
+      "email": "esteban.quito@gmail.com",
+      "cursos": []
+    }
+  ],
+  "cursos": [
+    {
+      "id": 101,
+      "nombre": "Python Básico",
+      "descripcion": "Introducción a Python",
+      "nivel": "Básico",
+      "materiales": [],
+      "estudiantes": [
+        114
+      ],
+      "prerequisitos": []
+    },
+    {
+      "id": 103,
+      "nombre": "Python Avanzado",
+      "descripcion": "Programación avanzada con Python",
+      "nivel": "Avanzado",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": [
+        102
+      ]
+    },
+    {
+      "id": 201,
+      "nombre": "Bases de Datos Básico",
+      "descripcion": "Introducción a las bases de datos",
+      "nivel": "Básico",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": []
+    },
+    {
+      "id": 202,
+      "nombre": "Bases de Datos Avanzado",
+      "descripcion": "Diseño avanzado de bases de datos",
+      "nivel": "Avanzado",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": [
+        201
+      ]
+    },
+    {
+      "id": 301,
+      "nombre": "Web Development",
+      "descripcion": "Desarrollo web completo",
+      "nivel": "Avanzado",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": [
+        201,
+        102
+      ]
+    },
+    {
+      "id": 522,
+      "nombre": "POO",
+      "descripcion": "Programación orientada a objetos",
+      "nivel": "Medio",
+      "materiales": [
+        {
+          "id": 500,
+          "nombre": "Estructura de datos",
+          "tipo": "PDF",
+          "url": "www.repoestudiantilucc/pdf/estructuradedatos.edu.co"
+        }
+      ],
+      "estudiantes": [
+        114
+      ],
+      "prerequisitos": [
+        101
+      ]
+    },
+    {
+      "id": 654,
+      "nombre": "Patrones de software",
+      "descripcion": "Metodos para programacion mas eficiente  ",
+      "nivel": "Basico",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": []
+    },
+    {
+      "id": 102,
+      "nombre": "Python Intermedio",
+      "descripcion": "Conceptos avanzados de Python",
+      "nivel": "Intermedio",
+      "materiales": [],
+      "estudiantes": [],
+      "prerequisitos": [
+        101
+      ]
+    }
+  ],
+  "cursos_eliminados": [],
+  "materiales_eliminados": [
+    {
+      "id": 1552,
+      "nombre": "fdgsdfsd",
+      "tipo": "sfdfds",
+      "url": "xvdfdsfdsf"
+    }
+  ],
+  "prerequisitos_eliminados": {},
+  "last_updated": "2026-04-27T16:19:20.882014"
+}
